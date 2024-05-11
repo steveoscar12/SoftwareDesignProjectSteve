@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T16:47:51.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="IVYOykysXh6JQvAEomvb" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T17:00:02.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Zuo01H8x_4cxsu6uxaLh" version="24.4.0" type="github">
   <diagram name="Seite-1" id="FVOdUuBJlli2k0Q4zRq4">
     <mxGraphModel dx="1434" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YP-5bk-mVnPvvIMgAdM1-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="460" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;language:de;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;language:de;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Player&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;name: String &lt;br&gt;&amp;nbsp;- hand: List&amp;lt;BeanCard&amp;gt;&lt;br&gt;&lt;br&gt;+ Player(name: String) &lt;br&gt;&amp;nbsp;+ getName(): String &lt;br&gt;&amp;nbsp;+ getHand(): List&amp;lt;BeanCard&amp;gt; &lt;br&gt;&amp;nbsp;+ addToHand(card: BeanCard): void&lt;br&gt;&amp;nbsp;+ removeFromHand(card: BeanCard):&lt;br&gt;&amp;nbsp;boolean &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="140" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

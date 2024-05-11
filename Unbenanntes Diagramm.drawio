@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T17:00:02.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Zuo01H8x_4cxsu6uxaLh" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T17:28:37.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="f5lj74GEHW9Qb-SwAO3r" version="24.4.0" type="github">
   <diagram name="Seite-1" id="FVOdUuBJlli2k0Q4zRq4">
     <mxGraphModel dx="1434" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,17 +10,58 @@
             <mxPoint x="490" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YP-5bk-mVnPvvIMgAdM1-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;/&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="340" y="400" width="140" height="60" as="geometry" />
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Bean Card&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;- name: String&lt;p style=&quot;language:de;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;br&gt;+ BeanCard(name: String) &amp;nbsp;&lt;br&gt;+ getName(): String &lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="580" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="YP-5bk-mVnPvvIMgAdM1-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;language:de;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="110" y="40" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="YP-5bk-mVnPvvIMgAdM1-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;language:de;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="460" width="140" height="100" as="geometry" />
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Game Class&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;br&gt;players: List&amp;lt;Player&amp;gt; &lt;br&gt;deck: List&amp;lt;BeanCard&amp;gt;&lt;br&gt;&lt;br&gt;+ BohnanzaGame(playerNames: List&amp;lt;String&amp;gt;) &lt;br&gt;+ startGame(): void &lt;br&gt;&amp;nbsp;+ initializeDeck(): void &lt;br&gt;+ getPlayerList(): List&amp;lt;Player&amp;gt; &lt;br&gt;+ getDeck(): List&amp;lt;BeanCard&amp;gt; &lt;br&gt;+ dealInitialCards(): void &lt;br&gt;+ performTrade&lt;br&gt;(player1: Player, player2: Player, card1:&lt;br&gt;&amp;nbsp;BeanCard, card2: BeanCard): boolean &lt;br&gt;+ harvestBeans(): void &lt;br&gt;+ endGame(): void &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="260" height="280" as="geometry" />
         </mxCell>
         <mxCell id="YP-5bk-mVnPvvIMgAdM1-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Player&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;name: String &lt;br&gt;&amp;nbsp;- hand: List&amp;lt;BeanCard&amp;gt;&lt;br&gt;&lt;br&gt;+ Player(name: String) &lt;br&gt;&amp;nbsp;+ getName(): String &lt;br&gt;&amp;nbsp;+ getHand(): List&amp;lt;BeanCard&amp;gt; &lt;br&gt;&amp;nbsp;+ addToHand(card: BeanCard): void&lt;br&gt;&amp;nbsp;+ removeFromHand(card: BeanCard):&lt;br&gt;&amp;nbsp;boolean &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="210" width="140" height="230" as="geometry" />
+          <mxGeometry x="344" y="280" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-31" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.414;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YP-5bk-mVnPvvIMgAdM1-23" target="YP-5bk-mVnPvvIMgAdM1-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-32" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.004;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YP-5bk-mVnPvvIMgAdM1-25" target="YP-5bk-mVnPvvIMgAdM1-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-33" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.423;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YP-5bk-mVnPvvIMgAdM1-23" target="YP-5bk-mVnPvvIMgAdM1-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Controller&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;-game: BohnanzaGame &lt;br&gt;-view: BohnanzaView &lt;br&gt;&lt;br&gt;+ BohnanzaController(playerNames: List&amp;lt;String&amp;gt;) &lt;br&gt;+ startGame(): void &lt;br&gt;+ handlePlayerTurn(player: Player): void &lt;br&gt;+ handleTrade(player: Player): void &lt;br&gt;+ handleHarvest(player: Player): void &lt;br&gt;+ handleEndTurn(player: Player): void &lt;br&gt;+ updateView(): void &lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;View Class&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;+displayPlayerHand(player: Player): void &lt;br&gt;+ displayGameInfo(info: String): void &lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="655" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-51" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YP-5bk-mVnPvvIMgAdM1-35" target="YP-5bk-mVnPvvIMgAdM1-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YP-5bk-mVnPvvIMgAdM1-52" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YP-5bk-mVnPvvIMgAdM1-24" target="YP-5bk-mVnPvvIMgAdM1-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="170" />
+              <mxPoint x="640" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
